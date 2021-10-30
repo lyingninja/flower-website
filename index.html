@@ -1,0 +1,247 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <META HTTP-EQUIV="REFRESH" CONTENT="30">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<style>
+			body{
+				height:max-content;
+				width:100%;
+				}
+			*{
+				margin:0;
+				padding:0;
+				box-sizing:border-box;
+				}
+			.first-part{
+				background:url('images/bg.jpg');
+				width:110%;
+				max-height:max-content;
+				background-repeat: no-repeat;
+				background-size:cover; 
+				background-position: center;
+				}
+			.navbar{
+				width:100%;
+				padding:5% 0;
+				}
+			.navbar img{
+				float:left;
+				position:relative;
+				left:5%;
+				border-color:white;
+				border-style:solid;
+				border-width:1px;
+				filter: hue-rotate(180deg);
+				z-index:10;
+				}
+			.navbar nav{
+				
+				}
+			.navbar a{
+				float:right;
+				text-decoration:none;
+				color:white;
+				padding:0 5%;
+				}
+			.search{
+				margin-top:40%;
+				text-align: center;
+				}
+			.search input{
+				border-style:none;
+				padding:2% 5%;
+				border-radius:4px;
+				outline:none;
+				}
+			.search button{
+				border-style:none;
+				padding:2% 5%;
+				border-radius:4px;
+				outline:none;
+				}
+			.slogan{
+				color:white;
+				text-align:center;
+				font-size:250%;
+				margin-top:20%;
+				}
+			.slogan button{
+				margin-top:5%;
+				margin-bottom:5%;
+				padding:2% 6%;
+				background-color:#71E5FF;
+				border-style:none;
+				}
+			.second-part{
+				margin-top:10%;
+				}
+			.row{
+				display:flex;
+				flex-direction:column;
+				width:100%;
+				margin-left:10%;
+				}
+			@media screen and (min-width:800px)
+			{
+				.row{
+				display:flex;
+				flex-direction:row;
+				width:100%;
+				margin-left:5%;
+				}
+				.row div{
+				width:80%;
+				margin-top:5%;
+				margin-left:2%;
+				text-align:center;
+				height:auto;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+				}
+			    .row div img{
+				width:100%;
+				height:auto;
+				}
+			}
+			.row div{
+				width:80%;
+				margin-top:5%;
+				text-align:center;
+				height:auto;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+				}
+			.row div img{
+				width:100%;
+				height:auto;
+				}
+			.third-part{
+				height:auto;
+				width:110%;
+				height:max-content;
+				background-color:#FF91D0;
+				margin:10% 0%;
+				} 
+			.newsletter-header{
+				text-align:center;
+				font-size:175%;
+				padding:5% 0%;
+				}
+			.newsletter{
+				text-align:center;
+				}
+			.newsletter input{
+				padding:1% 3%;
+				border-style:none;
+				outline:none;
+				border-radius:4px;
+				}
+			.newsletter button{
+				padding:1% 2%;
+				border-style:none;
+				outline:none;
+				border-radius:4px;
+				margin-bottom:5%;
+				}
+			.success{
+				text-align:center;
+				position:fixed;
+				width:60%;
+				margin: 0 20%;
+				bottom:5%;
+				transition:0.3s;
+				}
+		</style>
+	</head>
+	<body onload="hello()">
+		<div class="first-part">
+			<div class="navbar">
+				<div class="img"><img src="logo1.png" height="100" width="100" alt="logo"></div>
+				<nav>
+					<a href="#">Contact</a>
+					<a href="#">About</a>
+					<a href="#">Flowers</a>
+					<a href="#">Home</a>
+				</nav>
+			</div>
+			<div class="search">
+				<input type="text" placeholder="search the flower you want...">
+			    <button>search</button>
+			</div>
+			<div class="slogan">
+				You bring the love. We’ll bring the flowers.<br><br>
+				<button>  <span class="glyphicon">&#xe116;</span>   Purchase Now</button>
+			</div>
+		</div>
+		<div class="second-part">
+			<div class="row">
+				<div>
+					<img src="images/img-1.jpg">
+				</div>
+				<div>
+					<img src="images/img-2.jpg">
+				</div>
+				<div>
+					<img src="images/img-3.jpg">
+				</div>
+				<div>
+					<img src="images/img-4.jpg">
+				</div>
+				<div>
+					<img src="images/img-5.jpg">
+				</div>
+				<div>
+					<img src="images/img-6.jpg">
+				</div>
+				<div>
+					<img src="images/img-7.jpg">
+				</div>
+				<div>
+					<img src="images/img-8.jpg">
+				</div>
+				<div>
+					<img src="images/img-9.jpg">
+				</div>
+			</div>
+		</div>
+		<div class="third-part">
+			<div class="newsletter-header">
+				Subscribe to our newsletter
+			</div><br>
+			<div class="newsletter">
+				<form>
+				<input type="text" placeholder="Name" required><br><br>
+			    <input type="email" placeholder="Email" required><br><br>
+			    <button onclick="subscription ()">Subscribe</button> 
+			    </form>
+			</div>
+			<div class="alert alert-success success">
+				<strong><a href="#" class="close" data-dismiss="alert" aria-label​="close">&times;</a></strong>
+				<strong>Success!</strong> You successfully subscribed to our newsletter 
+			</div>
+		</div>
+		<script>
+			var subscribers_name = document.querySelector(".newsletter input[type='text']");
+			var subscribers_email = document.querySelector(".newsletter input[type='email']");
+			function hello ()
+			{
+				$(".success").hide();
+			}
+			function subscription ()
+			{
+				if( subscribers_name.value != "" && subscribers_email.value != "")
+				{
+					$(".success").show();
+				}
+			}
+		</script>
+	</body>
+</html>
